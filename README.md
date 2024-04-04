@@ -22,10 +22,7 @@ Execute Django admin and create details for 10 books
 ## models.py
 ```
 from django.db import models
-
 from django.contrib import admin
-
-# Create your models here.
 class Student(models.Model):
     studid=models.IntegerField()
     studname=models.CharField(max_length=20)
